@@ -13,6 +13,11 @@
 - Home page needs additional content. Will be implementing some type of graphic or contact info 
 - Learn more page links, quote request + time slot pop up windows for each provided service
 
+## Clone this repository
+```bash
+Git clone https://github.com/j-schneble/tallowhill-homeimprove.git
+```
+
 ## Install dependencies
 ```bash
 npm install
