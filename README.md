@@ -15,7 +15,7 @@
 
 ## Clone this repository
 ```bash
-Git clone https://github.com/j-schneble/tallowhill-homeimprove.git
+git clone https://github.com/j-schneble/tallowhill-homeimprove.git
 ```
 
 ## Install dependencies
