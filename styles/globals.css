@@ -1,0 +1,228 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: "sfprodisplayregular";
+  src: url('../components/fonts/SF-Pro-Display/SF-Pro-Display-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sfprodisplaybold";
+  src: url('../components/fonts/SF-Pro-Display/SF-Pro-Display-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sfprodisplaylight";
+  src: url('../components/fonts/SF-Pro-Display/SF-Pro-Display-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sfprodisplayheavy";
+  src: url('../components/fonts/SF-Pro-Display/SF-Pro-Display-Heavy.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+ 
+ 
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.shad {
+  box-shadow: rgba(165, 180, 252, 0.4) 0px 5px, rgba(165, 180, 252, 0.3) 0px 10px, rgba(165, 180, 252, 0.2) 0px 15px, rgba(165, 180, 252, 0.1) 0px 20px, rgba(165, 180, 252, 0.05) 0px 25px;
+}
+
+.shadd {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.no {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.isRequired {
+  
+  color: red;
+}
+
+.glass {
+  background:rgba(251, 214, 250, 0.334);
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+  border-right: 1px solid rgba(255, 255, 255, 0.09);
+
+ 
+}
+
+.shadowguy {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 16px 16px;
+}
+
+.conbox {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.boxcon {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 3px 5px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.guy {
+  background-color: rgba(151, 151, 152, 0.2);
+}
+
+.Typist {
+  color: var(--lightest-slate);
+  text-align: center;
+  font-size: 76px;
+  margin-top: -30px;
+}
+.Typist .Cursor--blinking {
+  color:#ff63c3;
+  padding-left: 4px;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+ 
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  box-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  
+
+}
+
+.glasss {
+  background: rgba(255, 255, 255, 0.03);
+
+ 
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.03);
+
+  box-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glass2 {
+  background: rgba(255, 255, 255, 0.03);
+ 
+ 
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.03);
+  
+  box-shadow: 0 1px 2px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.glass22 {
+  background: rgba(255, 255, 255, 0.03);
+ 
+ 
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.03);
+  
+  box-shadow: 0 1px 2px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(213, 213, 213, 0.1);
+}
+
+.glass3 {
+ 
+ 
+ 
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.03);
+  
+  box-shadow: 0 1px 2px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.glass1 {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.03);
+
+  box-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+ 
+}
+
+.glassy {
+  
+  background: rgba(0,0,0,0.25);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 10px rgba(0,0,0,0.3);
+  -o-box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 10px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 10px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 10px rgba(0,0,0,0.3);
+}
+
+.gla {
+-o-box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 10px rgba(0,0,0,0.3);
+-webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 10px rgba(0,0,0,0.3);
+-moz-box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 10px rgba(0,0,0,0.3);
+box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 10px rgba(0,0,0,0.3);
+}
+
