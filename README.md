@@ -1,6 +1,7 @@
 ## Tallowhill Home Services
 >A handyman/home improvement site. Currently just a homepage layout with no connected pages.
-<img width="1489" alt="tallow2" src="https://user-images.githubusercontent.com/60337134/186298538-b3e6762a-196d-4ec4-b8d7-02798ce6e575.png">
+
+<img width="1680" alt="Screen Shot 2022-08-25 at 7 42 26 PM" src="https://user-images.githubusercontent.com/60337134/186787646-14b6398a-9237-4fb3-8fa3-5a4c3b9c8bbb.png">
 
 ## Demo
  [🔗 Tallowhill Home Services](https://tallowhill.vercel.app/)
@@ -12,8 +13,8 @@
 
 ## Currently working on 
 - Nav Links all need pages  
-- Home page needs additional content. Will be implementing some type of graphic or contact info 
 - Learn more page links, quote request + time slot pop up windows for each provided service
+- Possible filler text on "lets get started" section or for the service boxes
 
 ## Clone this repository
 ```bash
