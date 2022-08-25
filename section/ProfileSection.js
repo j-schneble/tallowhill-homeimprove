@@ -22,8 +22,9 @@ const ProfileSection = () => {
                         fontFamily="sfprodisplayregular"
                         as="h2"
                         color={'blue.800'}
-                        fontSize={{ base: '28px', md: '32px', lg: '38px' }}
+                        fontSize={{ base: '28px', md: '32px', lg: '37px' }}
                         mt={4}
+                        letterSpacing="wide"
                     >
                         Tallowhill Home Services
                     </Heading>
