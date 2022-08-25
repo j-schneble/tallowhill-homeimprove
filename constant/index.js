@@ -3,7 +3,7 @@ import {  FaLinkedin, FaGithub } from "react-icons/fa";
 
 
 const menuLinks = [
-    { name: "About ", route: "/about" },
+  
     { name: 'Handyman Services', route: '/HandyMan' },
     { name: 'Custom Carpentry', route: '/CustomCarpen' },
     { name: "Home Improvement", route: "/HomeImprove" },

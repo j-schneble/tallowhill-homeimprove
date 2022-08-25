@@ -28,27 +28,10 @@ const ProfileSection = () => {
                         Tallowhill Home Services
                     </Heading>
                 <Paragraph fontFamily="sfprodisplaylight"  fontSize={{ base: '18px', md: '18px', lg: '22px' }} ml={1} lineHeight={1.6}>
-                Handyman | Home Improvement
+                Artists | Designers | Craftspeople
                 </Paragraph>
                 <Box mt={5}>
                     <LightMode>
-                        <ButtonGroup>
-                    
-                            <Link href={'/contact'} style={{ textDecoration: 'none' }}>
-                                <Button
-                                    bgColor="blue.900"
-                                    fontFamily="sfprodisplayregular"
-                                    letterSpacing="wider"
-                                    size='sm'
-                                    margin={'5px'}
-                                    leftIcon={<BiPhoneCall color='white'/>}
-                                    fontSize={{ base: '14px', md: '16px', lg: '18px' }}
-                                    textColor="white"
-                                >
-                                    Contact Me
-                                </Button>
-                            </Link>
-                        </ButtonGroup>
 
                     </LightMode>
                 </Box>
