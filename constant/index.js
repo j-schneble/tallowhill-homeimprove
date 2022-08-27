@@ -46,14 +46,14 @@ const liveProjects = [
     },
     {
         name: 'Custom Carpentry',    
-        alt: 'custom',
+     
         summary: 'Learn More',
         decide: 'Request Quote',
       
     },
     {
         name: 'Home Improvement',      
-        alt: 'custom',
+    
         summary: 'Learn More',
         decide: 'Request Quote',
    
