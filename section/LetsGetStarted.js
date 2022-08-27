@@ -15,8 +15,8 @@ const LetsGetStarted = () => {
                               
                               as="h1"
                               color='orange.500'
-                              fontSize={{ base: '22px', md: '24px', lg: '28px' }}
-                              mt={5}
+                              fontSize={{ base: '16px', md: '18px', lg: '22px' }}
+                            
                               mb={3}
                               letterSpacing="wide">
                                 Lets Get Started ☑️

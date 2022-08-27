@@ -58,12 +58,12 @@ const NavBar = () => {
                     
                     <HStack spacing={8} alignItems={'center'} mr="6">
                         <h1
-                            as={CharkaLink} href="/"
+                            as={CharkaLink} href="/Home"
                             _hover={{ borderColor: "blue.500" }}
                         >
                         🟠
                         </h1>
-                        <HStack as="nav" spacing="6" fontFamily="sfprodisplaylight"  letterSpacing="wider" display={{ base: 'none', md: 'flex' }}>
+                        <HStack as="nav" spacing="8" fontFamily="sfprodisplaylight"  letterSpacing="wider" fontSize={{ base: '10px', md: '12px', lg: '15px' }} display={{ base: 'none', md: 'flex' }}>
                             {navItem}
                         </HStack>
                     </HStack>

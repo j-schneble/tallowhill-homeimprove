@@ -12,8 +12,8 @@ const ProfileSection = () => {
                     <Flex alignItems={"flex-end"}>
                         <Img
                             name="construction pic"
-                            src="/headdd.png"
-                            size='lg'
+                            src="/header.png"
+                            size=''
                         />
                     </Flex>
                   
@@ -22,13 +22,13 @@ const ProfileSection = () => {
                         fontFamily="sfprodisplayregular"
                         as="h2"
                         color={'blue.800'}
-                        fontSize={{ base: '28px', md: '32px', lg: '37px' }}
+                        fontSize={{ base: '28px', md: '30px', lg: '30px' }}
                         mt={4}
                         letterSpacing="wide"
                     >
                         Tallowhill Home Services
                     </Heading>
-                <Paragraph fontFamily="sfprodisplaylight"  fontSize={{ base: '18px', md: '18px', lg: '22px' }} ml={1} lineHeight={1.6}>
+                <Paragraph fontFamily="sfprodisplaylight"  fontSize={{ base: '18px', md: '18px', lg: '20px' }} ml={1} lineHeight={1.6}>
                 Artists | Designers | Craftspeople
                 </Paragraph>
                 <Box mt={5}>

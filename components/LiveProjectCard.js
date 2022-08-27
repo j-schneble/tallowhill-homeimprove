@@ -26,6 +26,7 @@ export const LiveProjectCard = ({ project }) => (
                     <Heading as="h2" fontSize="xl" fontWeight="600" mb="2" fontFamily="sfprodisplaybold" letterSpacing="wider" color={"blue.800"} >
                     {project.name} ⤵
                     </Heading>
+                    
 
                         <div className='w-2/3 mt-2 text-center rounded bg-orange-500/90 ml-9' >
                             <Text  fontFamily="sfprodisplayregular" fontSize="lg" color={"white"} >  {project.decide}</Text>

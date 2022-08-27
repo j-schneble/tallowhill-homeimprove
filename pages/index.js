@@ -1,10 +1,11 @@
-import { Container, Divider } from '@chakra-ui/react'
+import { Container, Divider, SimpleGrid } from '@chakra-ui/react'
 import Head from 'next/head'
 import { LiveProjectSection } from '../section/LiveProjectSection';
 import styles from '../styles/Home.module.css'
 import ProfileSection from '../section/ProfileSection';
 import WeAre from '../section/WeAre';
 import LetsGetStarted from '../section/LetsGetStarted';
+import  ServiceComp  from '../service/serviceComp.tsx';
 
 export default function Home() {
 
@@ -23,9 +24,11 @@ export default function Home() {
        <ProfileSection />
           <Divider my={2} bgColor="orange.500" p="1.25"/>
           <WeAre />
-          
+     
           <LetsGetStarted />
-          <LiveProjectSection />
+          <ServiceComp />
+      
+       
           <Divider my={7} />
         </Container>
       </main>

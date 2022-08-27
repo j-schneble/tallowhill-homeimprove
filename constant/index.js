@@ -4,9 +4,9 @@ import {  FaLinkedin, FaGithub } from "react-icons/fa";
 
 const menuLinks = [
   
-    { name: 'Handyman Services', route: '/HandyMan' },
-    { name: 'Custom Carpentry', route: '/CustomCarpen' },
-    { name: "Home Improvement", route: "/HomeImprove" },
+    { name: 'Handyman Services', route: '/handyman' },
+    { name: 'Custom Carpentry', route: '/carpentry' },
+    { name: "Home Improvement", route: "/homeimprove" },
     { name: "Contact", route:"/contact"}
 ]
 
@@ -40,10 +40,8 @@ const siteConfig = {
 
 const liveProjects = [
     {
-        name: 'Handyman Services',       
-        alt: 'custom',
-        summary: 'Learn More',
-        decide: 'Schedule Service',
+        name: 'Handyman Services click',       
+        route: '/handyman'
        
     },
     {
@@ -62,4 +60,28 @@ const liveProjects = [
     }
 ]
 
-export { menuLinks,  liveProjects, siteConfig }
+const liveServices = [
+    {
+        name: 'Handyman Services',       
+   
+        summary_path: '/handyman',
+        decide: 'Schedule Service',
+       
+    },
+    {
+        name: 'Custom Carpentry',    
+     
+        summary_path: '/carpentry',
+        decide: 'Request Quote',
+      
+    },
+    {
+        name: 'Home Improvement',      
+   
+        summary_path: '/homeimprove',
+        decide: 'Request Quote',
+   
+    }
+]
+
+export { menuLinks,  liveProjects, siteConfig, liveServices }

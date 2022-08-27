@@ -15,7 +15,7 @@ const WeAre = () => {
                         
                         as="h1"
                         color='orange.500'
-                        fontSize={{ base: '22px', md: '24px', lg: '28px' }}
+                        fontSize={{ base: '20px', md: '20px', lg: '22px' }}
                         mt={1}
                         mb={3}
                         letterSpacing="wide">
@@ -28,10 +28,10 @@ const WeAre = () => {
               <Flex alignItems="center" justifyContent="space-between">     
                 <Heading 
                         fontFamily="sfprodisplaylight"
-                        
+                        fontWeight={500}
                         as="h2"
                         color='rgb(100, 116, 139)'
-                        fontSize={{ base: '18px', md: '22px', lg: '24px' }}
+                        fontSize={{ base: '16px', md: '16px', lg: '20px' }}
                         mt={1}
                         letterSpacing="wide"
                         
@@ -44,10 +44,10 @@ const WeAre = () => {
                     <Flex alignItems="center" justifyContent="space-between">     
                 <Heading 
                         fontFamily="sfprodisplaylight"
-                        
+                        fontWeight={500}
                         as="h2"
                         color='rgb(100, 116, 139)'
-                        fontSize={{ base: '18px', md: '22px', lg: '24px' }}
+                        fontSize={{ base: '16px', md: '16px', lg: '20px' }}
                         mt={1}
                         mb={2}
                         letterSpacing="wide"
