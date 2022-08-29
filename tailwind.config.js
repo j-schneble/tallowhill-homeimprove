@@ -26,6 +26,9 @@ module.exports = {
       spacing: {
         128: '32rem',
       },
+      objectPosition: {
+        'center-bottom': 'center bottom',
+      },
       colors: {
         white: '#fff',
         green: colors.emerald,

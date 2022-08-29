@@ -13,12 +13,12 @@ const LetsGetStarted = () => {
                     <Heading
                     fontFamily="sfprodisplayregular"
                               
-                              as="h1"
-                              color='orange.500'
-                              fontSize={{ base: '16px', md: '18px', lg: '22px' }}
-                            
-                              mb={3}
-                              letterSpacing="wide">
+                    as="h1"
+                        color='orange.500'
+                        fontSize={{ base: '20px', md: '20px', lg: '22px' }}
+                     
+                        mb={3}
+                        letterSpacing="wide">
                                 Lets Get Started ☑️
       
                     </Heading>

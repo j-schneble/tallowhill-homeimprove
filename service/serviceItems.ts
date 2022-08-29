@@ -1,4 +1,5 @@
 import { IService } from '../types';
+import { IRates } from '../types';
 
 export const services: IService[] = [
     {
@@ -24,6 +25,20 @@ export const services: IService[] = [
     }
   
     
+  ];
+
+
+  export const rates: IRates[] =[
+    {
+        name: 'Rates',
+        first: '$105 for the first hour',
+        second: '$85/hour thereafter',
+    },
+    {
+        name:'Hours',
+        first: '9am - 6pm Mon-Fri',
+        second: '9am - 1pm Sat',
+    }
   ];
   
   

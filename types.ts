@@ -8,3 +8,11 @@ export interface IService {
    
  
   }
+
+  export interface IRates {
+    name: string;
+    first: string;
+    second: string;
+   
+ 
+  }
