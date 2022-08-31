@@ -30,27 +30,27 @@ const WeAre = () => {
                         fontFamily="sfprodisplaylight"
                         fontWeight={500}
                         as="h2"
-                        color='rgb(100, 116, 139)'
+                        color='gray.600'
                         fontSize={{ base: '16px', md: '16px', lg: '20px' }}
                         mt={1}
-                        letterSpacing="wide"
+                        letterSpacing="unset"
                         
                     >
                      We are not your average group of construction workers and carpenters. Tallowhill is a team of home improvement specialists with deep experience in construction, custom furniture, cabinetry and fabrication.
                         
                     </Heading>
                     </Flex>
-                    <Divider my={1} />
+                   
                     <Flex alignItems="center" justifyContent="space-between">     
                 <Heading 
                         fontFamily="sfprodisplaylight"
                         fontWeight={500}
                         as="h2"
-                        color='rgb(100, 116, 139)'
+                        color='gray.600'
                         fontSize={{ base: '16px', md: '16px', lg: '20px' }}
-                        mt={1}
+                        mt={2}
                         mb={2}
-                        letterSpacing="wide"
+                        letterSpacing="unset"
                         
                     >
                     We love what we do and we are passionate about doing it well. Most importanly, we are committed to delivering the highest quality service with a beautiful result four our customers. 

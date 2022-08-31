@@ -33,14 +33,14 @@ const Handyman = () => {
              mt={2}>
                 <div className='grid grid-cols-3 gap-2 '>
                     <Flex 
-                    className='glass2'
+                    className='glass'
                         alignItems="center" 
                         fontFamily="sfprodisplaybold"
                         as="h2"
                         backgroundColor={'blue.800'}
                         mt={1}
                         p={1}
-                        borderRadius={'4px'}
+                        borderRadius={'2px'}
                         textAlign="center" 
                         textColor="white"
                     >     
@@ -50,14 +50,14 @@ const Handyman = () => {
                     </Flex>
                 
                     <Flex 
-                        className='glass2'
+                        className='glass'
                         alignItems="center" 
                         fontFamily="sfprodisplaybold"
                         as="h2"
                         backgroundColor={'blue.800'}
                         mt={1}
                         p={1}
-                        borderRadius={'4px'}
+                        borderRadius={'2px'}
                         textAlign="center" 
                         textColor="white"
                      > 
@@ -67,14 +67,15 @@ const Handyman = () => {
                     </Flex>
 
                     <Flex 
-                    className='glass2'
+                    className='glass'
                         alignItems="center" 
                         fontFamily="sfprodisplaybold"
                         as="h2"
                         backgroundColor={'blue.800'}
+                      
                         mt={1}
                         p={1}
-                        borderRadius={'4px'}
+                        borderRadius={'2px'}
                         textAlign="center" 
                         textColor="white"                    
                         > 
@@ -87,32 +88,35 @@ const Handyman = () => {
             <Box>
                 <div>
                 <Flex 
-                        alignItems="center" 
-                        fontFamily="sfprodisplayregular"
+                        
+                    >
+                    <Heading
+                    fontFamily="sfprodisplayregular"
                         as="h2"
                         fontSize={{ base: '17px', md: '17px', lg: '19px' }}
                         mt={5}
                         p={1}
+                        fontWeight={'500'}
                         textAlign="center" 
+                        alignItems={'center'}
                         textColor="blue.800"
-                        backgroundColor={'gray.50'}
-                    >
-                    <p>
+                        backgroundColor={'gray.50'}>
                     Whether you need help assembling furniture, installing a ceiling fan or new light fixtures, or hanging artwork, we got you! 
-                    </p>
+                    </Heading>
                     </Flex>     
                 </div>
             </Box>
               
             
-            <Box className='mt-6'>                  
+            <Box className='mt-6 '>                  
                 <div className='grid grid-cols-2 gap-2 '>
                     <Box
-                 
+                    className='macshad'
                     padding={2}
                     marginBottom={2}
                     backgroundColor='white'
                     borderRadius={'sm'}
+                   
                     >
                         <Heading className='mb-2 text-xl font-semibold text-center text-orange-500 font-sfprodisplayregular'>
                            Rates
@@ -177,7 +181,7 @@ const Handyman = () => {
                     </Box>
                    
                     <Box
-                  
+                  className='macshad'
                     padding={2}
                     marginBottom={2}
                     backgroundColor='white'
@@ -246,9 +250,6 @@ const Handyman = () => {
                    </Box>
                 </div>
 
-                <Paragraph fontFamily="sfprodisplayregular" textAlign={'center'} mt={3} color={'gray.600'} fontSize={{ base: '16px', md: '16px', lg: '16px' }} ml={3}  lineHeight={1.6}>
-                    Whether you need help assembling furniture, installing a ceiling fan or new light fixtures, or hanging artwork, we got you! 
-                </Paragraph>
             </Box>
             
            

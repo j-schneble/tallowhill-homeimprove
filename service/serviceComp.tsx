@@ -4,7 +4,8 @@ import {
     Flex,
     Text,
     Heading,
-    SimpleGrid
+    SimpleGrid,
+    
 } from "@chakra-ui/react";
 
 import Parallax from '../components/Parallax/index'
@@ -24,11 +25,13 @@ import NextLink from 'next/link'
 
 export default function ServiceComp() {
     return(
-<SimpleGrid columns={[1, 2, 3, 3]} mt={5}>
+<SimpleGrid columns={[1, 2, 2,]} mt={5}>
     {services.map((service, key) => (
         <Parallax key={key}>
-             <Box className='border-2 shadowguy '
-            p={4} display={{ md: "flex",  }} borderWidth={1} margin={2} rounded={'10px'}
+             <Box className='border-2 glass2'
+             width="50%"
+             backgroundColor={'blue.800'}
+            p={4} display={{ md: "flex",  }} borderWidth={1} margin={2} marginLeft={20} rounded={'3px'}
             _hover={{
                 borderColor: "orange.500",
             }}
@@ -37,27 +40,75 @@ export default function ServiceComp() {
                 alignItems="center" justifyContent="space-around" direction={{ base: 'column', md: 'row' }}
             >
 
-                <Flex flexDirection="column" ml={[0, 5, 5]} mt={[2, 2, 0, 0]}>
+                <Flex flexDirection="column" ml={[ 0, 0, 5, 5]} mt={[2, 2, 0, 0 ]} >
 
-         <p className='mb-2 text-xl font-semibold font-sfprodisplaybold wider' color={'blue.800'} >
-                    {service.name} ⤵
-                    </p>
-                    <div className='w-2/3 mt-2 text-center rounded bg-orange-500/90 ml-9' >
-                    <NextLink href={service.summary_path}  passHref scroll={false}>
-                    <button
-                 
-                  className='text-lg text-white font-sfprodisplayregular'
+         <Heading 
+         marginBottom={2}
+         fontSize='xl'
+         fontWeight='semibold'
+         fontFamily='sfprodisplaybold'
+         color={'white'}
+  
+                 >
+                    {service.name} 
+                    </Heading>
+                    <Box 
+                    marginTop="2px"
+                   
+                    textAlign={'center'}
+                    borderRadius="5px"
+                    backgroundColor={'gray.50'}
+                    borderColor={'orange.500'}
+                    borderWidth="2px"
+                    marginBottom="5px"
+                    fontSize={'md'}
+                    className='shadd'
+                    
+              
+                    >
+                      
+
+                        
+                    <NextLink
+                    
+                     href={service.summary_path}  passHref scroll={false}>
+                    <button 
      
                   aria-label='Github'
                 >
-                    Learn More
+                    <Heading  fontSize={'md'}
+                    
+                    textColor={'gray.700'}
+                    letterSpacing={'wide'}
+                    fontFamily="sfprodisplayregular" >Learn More →</Heading>
                     </button>
                     </NextLink>
-                        </div>
-                        <div className='w-2/3 mt-2 text-center rounded bg-orange-500/90 ml-9' >
-                            
-                            <p className='text-lg text-white font-sfprodisplayregular' >  {service.decide}</p>
-                        </div>
+
+                        </Box>
+                        <Box 
+                    marginTop="2px"
+                    width={'1/2'}
+                    textAlign={'center'}
+                    borderRadius="5px"
+                    backgroundColor={'gray.50'}
+                    borderColor={'orange.500'}
+                    borderWidth="2px"
+                    className='shadd'
+                    >
+                                        <button
+                 
+                 
+    
+                 aria-label='Github'
+               >
+                  <Heading fontSize={'md'}
+                    textColor={'gray.700'}
+                    letterSpacing={'wide'}
+                    fontFamily="sfprodisplayregular" >Request Quote</Heading>
+                    </button>
+                   </Box>
+
+                        
                 
      
        </Flex>
