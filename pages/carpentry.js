@@ -13,7 +13,7 @@ const Carpentry = () => {
                     <Heading
                         fontFamily="sfprodisplayregular"
                         as="h2"
-                        color={'orange.500'}
+                        color={'blue.800'}
                         fontSize={{ base: '28px', md: '30px', lg: '30px' }}
                         mt={4}
                      

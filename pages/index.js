@@ -6,6 +6,7 @@ import ProfileSection from '../section/ProfileSection';
 import WeAre from '../section/WeAre';
 import LetsGetStarted from '../section/LetsGetStarted';
 import  ServiceComp  from '../service/serviceComp.tsx';
+import NewServiceComp from '../service/newServiceComp.tsx'
 
 export default function Home() {
 
@@ -26,7 +27,8 @@ export default function Home() {
           <WeAre />
      
           <LetsGetStarted />
-          <ServiceComp />
+          <NewServiceComp />
+        
       
        
           <Divider my={7} />

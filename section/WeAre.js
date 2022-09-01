@@ -11,10 +11,10 @@ const WeAre = () => {
                 <Flex alignItems="center" justifyContent="space-between">      
                     
               <Heading
-              fontFamily="sfprodisplayregular"
+              fontFamily="sfprodisplaybold"
                         
                         as="h1"
-                        color='orange.500'
+                        color='blue.800'
                         fontSize={{ base: '20px', md: '20px', lg: '22px' }}
                         mt={1}
                         mb={3}
@@ -27,8 +27,8 @@ const WeAre = () => {
               
               <Flex alignItems="center" justifyContent="space-between">     
                 <Heading 
-                        fontFamily="sfprodisplaylight"
-                        fontWeight={500}
+                        fontFamily='sfprodisplayregular'
+                        fontWeight={400}
                         as="h2"
                         color='gray.600'
                         fontSize={{ base: '16px', md: '16px', lg: '20px' }}
@@ -43,8 +43,8 @@ const WeAre = () => {
                    
                     <Flex alignItems="center" justifyContent="space-between">     
                 <Heading 
-                        fontFamily="sfprodisplaylight"
-                        fontWeight={500}
+                        fontFamily='sfprodisplayregular'
+                        fontWeight={400}
                         as="h2"
                         color='gray.600'
                         fontSize={{ base: '16px', md: '16px', lg: '20px' }}

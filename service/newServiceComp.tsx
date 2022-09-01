@@ -90,88 +90,62 @@ export default function ServiceComp () {
         });
     }
 
+
     return(
-<SimpleGrid columns={[1, 2, 2,]} mt={5}>
-    {services.map((service, key) => (
-        <Parallax key={key}>
-             <Box className='border-2 '
-           
-             backgroundColor={'blue.800'}
-            p={4} display={{ md: "flex",  }} borderWidth={1}  rounded={'3px'}
-            _hover={{
-                borderColor: "orange.500",
-            }}
-        > 
-              <Flex
-                alignItems="center" justifyContent="space-around" direction={{ base: 'column', md: 'row' }}
-            >
-
-                <Flex flexDirection="column"  >
-
-                <Heading 
-         marginBottom={2}
-         fontSize={{ base: '20px', md: '20px', lg: '25px' }}
-         fontWeight='semibold'
-         fontFamily='sfprodisplaybold'
-         color={'white'}
-  
-                 >
-                    {service.name} 
+            <div className='grid content-start grid-cols-3 gap-4'>
+             
+                <Box
+                marginRight={1}
+                textAlign={'center'}
+                backgroundColor={'blue.800'}
+                borderRadius={'5px'}
+                paddingTop={4}
+                paddingBottom={4}>
+                    <Heading
+                          fontSize={{ base: '14px', md: '14px', lg: '20px' }}
+                          textColor={'white'}
+                          >
+                            Handyman Services
                     </Heading>
-                    <Box 
-                    marginTop="2px"
-                   
-                    textAlign={'center'}
-                    borderRadius="5px"
-                    backgroundColor={'gray.50'}
-                    borderColor={'orange.500'}
-                    borderWidth="2px"
-                    marginBottom="5px"
-                    fontSize={'md'}
-                    className='shadd'
-                    
-              
-                    >
+                    <Box>
+                        <NextLink
+                        href='/handyman' passHref scroll={false}>
+                            <button>
+                        <Heading
+                     
                       
+                        fontSize={{ base: '13px', md: '13px', lg: '16px' }}
+                        textColor={'orange.500'}
+                        letterSpacing={'wide'}
+                        >Click here to learn more</Heading>
+                        </button>
+                        </NextLink>
+                    </Box>
 
-                        
-                    <NextLink
-                    
-                     href={service.summary_path}  passHref scroll={false}>
-                    <button 
-     
-                  aria-label='Github'
-                >
-                    <Heading  fontSize={'md'}
-                    
-                    textColor={'gray.700'}
-                    letterSpacing={'wide'}
-                    fontFamily="sfprodisplayregular" >Learn More →</Heading>
-                    </button>
-                    </NextLink>
+                </Box>
 
-                        </Box>
-                        <Box 
-                   marginTop="2px"
-                   width={'1/2'}
-                   textAlign={'center'}
-                   borderRadius="5px"
-                   backgroundColor={'gray.50'}
-                   borderColor={'orange.500'}
-                   borderWidth="2px"
-                   className='shadd'
-                   >
-                    
-                      <Popup trigger={ 
+                <Box
+                marginLeft={1}
+                borderRadius={'5px'}
+                textAlign={'center'}
+                backgroundColor={'gray.50'}
+                borderColor={'orange.500'}
+                borderWidth="2px"
+                className='shadd'
+
+                 >
+                     <Popup trigger={ 
         <button
             aria-label='Github'
         >
-            <Heading 
-                fontSize={'md'}
-                textColor={'gray.700'}
-                letterSpacing={'wide'}
-                fontFamily="sfprodisplayregular" >Request Quote</Heading>
-        </button>} 
+                    <Heading
+                         fontSize={{ base: '14px', md: '14px', lg: '20px' }}
+                         textColor={'blue.800'}
+                         paddingTop={6}
+                         paddingBottom={3}>
+                          👉 Request a Quote Today 👈
+                    </Heading>
+                    </button>} 
             position="top center">
                 <Box my={4}  className='popup' p={1} borderWidth={'3px'} borderColor={'blue.800'} textAlign="left">
                                     <form onSubmit={handleSubmit}>
@@ -188,7 +162,7 @@ export default function ServiceComp () {
                                                 size="xs"
                                                 width={'45%'}
                                                 onChange={event => setName(event.currentTarget.value)}
-                                                backgroundColor={'gray.100'}
+                                                backgroundColor={'gray.50'}
                                                 
                                             />
                                             
@@ -202,7 +176,7 @@ export default function ServiceComp () {
                                                 size="xs"
                                                 width={'45%'}
                                                 onChange={event => setName(event.currentTarget.value)}
-                                                backgroundColor={'gray.100'}
+                                                backgroundColor={'gray.50'}
                                             />
                                         </FormControl>
                                         <FormControl isRequired mt={6}>
@@ -217,7 +191,7 @@ export default function ServiceComp () {
                                                 marginLeft={2}
                                                 width={'95%'}
                                                 onChange={event => setLocation(event.currentTarget.value)}
-                                                backgroundColor={'gray.100'}
+                                                backgroundColor={'gray.50'}
                                             />
                                         </FormControl>
                                         <FormControl isRequired mt={6}>
@@ -232,7 +206,7 @@ export default function ServiceComp () {
                                                 width={'95%'}
                                                 marginLeft={2}
                                                 onChange={event => setProject(event.currentTarget.value)}
-                                                backgroundColor={'gray.100'}
+                                                backgroundColor={'gray.50'}
                                             />
                                         </FormControl>
                                         <FormControl isRequired mt={6}>
@@ -247,7 +221,7 @@ export default function ServiceComp () {
                                                 borderRadius={'6px'}
                                                 width={'95%'}
                                                 onChange={event => setEmail(event.currentTarget.value)}
-                                                backgroundColor={'gray.100'}
+                                                backgroundColor={'gray.50'}
                                             />
                                         </FormControl>
                                         <FormControl isRequired mt={6}>
@@ -262,7 +236,7 @@ export default function ServiceComp () {
                                                 marginLeft={2}
                                                 width={'95%'}
                                                 onChange={event => setMessage(event.currentTarget.value)}
-                                                backgroundColor={'gray.100'}
+                                                backgroundColor={'gray.50'}
                                             />
                                         </FormControl>
                                         <Button
@@ -283,20 +257,39 @@ export default function ServiceComp () {
                                 </Box>
               </Popup>
                     
-                   </Box>
 
-                   <div>
-    
-    
-  </div>
-                
-     
-       </Flex>
-       </Flex>
-         </Box>
-        </Parallax>
-        
-    ))}
-</SimpleGrid>
+                </Box>
+
+                <Box
+                 marginLeft={2}
+                 textAlign={'center'}
+                 backgroundColor={'blue.800'}
+                 borderRadius={'5px'}
+                 paddingTop={4}
+                paddingBottom={4}>
+                    <Heading
+                     fontSize={{ base: '14px', md: '14px', lg: '20px' }}
+                     textColor={'white'}>
+                        Custom Carpentry
+                    </Heading>
+                    <Box>
+                        <NextLink 
+                        href='/carpentry' passHref scroll={false}>
+                            <button>
+                        <Heading
+                        fontSize={{ base: '13px', md: '13px', lg: '16px' }}
+                        textColor={'orange.500'}
+                        letterSpacing={'wide'}
+                        >Click here to learn more</Heading>
+                        </button>
+                        </NextLink>
+                        
+                    </Box>
+                </Box>
+             
+            </div>
+
+
+                  
     )
     }

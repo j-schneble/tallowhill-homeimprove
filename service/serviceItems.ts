@@ -3,14 +3,21 @@ import { IRates } from '../types';
 
 export const services: IService[] = [
     {
-        name: 'Handyman Service',       
+        name: 'Handyman Service ',       
    
         summary_path: '/handyman',
         decide: 'Request Quote',
        
     },
     {
-        name: 'Custom Carpentry',    
+        name: 'Request Quote',       
+   
+        summary_path: 'Request Quote',
+        decide: 'Request Quote',
+       
+    },
+    {
+        name: 'Custom Carpentry ',    
      
         summary_path: '/carpentry',
         decide: 'Request Quote',

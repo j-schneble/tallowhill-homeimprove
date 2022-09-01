@@ -4,7 +4,7 @@ import {  FaLinkedin, FaGithub } from "react-icons/fa";
 
 const menuLinks = [
 
-    { name: '🟠', route:'/'},
+    { name: 'Home', route:'/'},
     { name: 'Handyman Services', route: '/handyman' },
     { name: 'Custom Carpentry', route: '/carpentry' },
     
