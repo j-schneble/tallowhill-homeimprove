@@ -1,7 +1,8 @@
 ## Tallowhill Home Services
 >A handyman/home improvement site. Currently just a homepage layout with no connected pages.
 
-<img width="1680" alt="Screen Shot 2022-08-25 at 7 42 26 PM" src="https://user-images.githubusercontent.com/60337134/186787646-14b6398a-9237-4fb3-8fa3-5a4c3b9c8bbb.png">
+<img width="1660" alt="Screen Shot 2022-08-31 at 10 15 45 PM" src="https://user-images.githubusercontent.com/60337134/187817917-34b35138-b8ed-462b-a656-7e9951f6e5cb.png">
+
 
 ## Demo
  [🔗 Tallowhill Home Services](https://tallowhill.vercel.app/)
