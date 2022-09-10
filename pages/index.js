@@ -7,6 +7,8 @@ import WeAre from '../section/WeAre';
 import LetsGetStarted from '../section/LetsGetStarted';
 import  ServiceComp  from '../service/serviceComp.tsx';
 import NewServiceComp from '../service/newServiceComp.tsx'
+import MostPopular from '../service/mostPopular.tsx'
+import IconPrices from '../service/iconPrices.tsx'
 
 export default function Home() {
 
@@ -25,13 +27,19 @@ export default function Home() {
        <ProfileSection />
           <Divider my={2} bgColor="orange.500" p="1.25"/>
           <WeAre />
+          <MostPopular />
+          
      
           <LetsGetStarted />
+          <IconPrices />
           <NewServiceComp />
         
       
        
           <Divider my={7} />
+      
+
+          
         </Container>
       </main>
     </div>

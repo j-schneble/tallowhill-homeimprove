@@ -97,13 +97,15 @@ export default function ServiceComp () {
                 <Box
                 marginRight={1}
                 textAlign={'center'}
-                backgroundColor={'blue.800'}
+                backgroundColor={'gray.50'}
                 borderRadius={'5px'}
                 paddingTop={4}
-                paddingBottom={4}>
+                paddingBottom={4}
+                borderWidth={'2px'}
+                borderColor={'blue.800'}>
                     <Heading
                           fontSize={{ base: '14px', md: '14px', lg: '20px' }}
-                          textColor={'white'}
+                          textColor={'blue.800'}
                           >
                             Handyman Services
                     </Heading>
@@ -263,13 +265,15 @@ export default function ServiceComp () {
                 <Box
                  marginLeft={2}
                  textAlign={'center'}
-                 backgroundColor={'blue.800'}
+                 backgroundColor={'gray.50'}
                  borderRadius={'5px'}
                  paddingTop={4}
-                paddingBottom={4}>
+                paddingBottom={4}
+                borderWidth={'2px'}
+                borderColor={'blue.800'}>
                     <Heading
                      fontSize={{ base: '14px', md: '14px', lg: '20px' }}
-                     textColor={'white'}>
+                     textColor={'blue.800'}>
                         Custom Carpentry
                     </Heading>
                     <Box>

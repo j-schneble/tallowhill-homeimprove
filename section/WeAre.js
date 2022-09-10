@@ -7,33 +7,26 @@ import {BiPhoneCall} from 'react-icons/bi';
 const WeAre = () => {
     return (
 
-            <Box>
+            <Box backgroundColor={'whiteAlpha.700'}
+            opacity={'75%'}
+            padding={'4'}>
                 <Flex alignItems="center" justifyContent="space-between">      
                     
-              <Heading
-              fontFamily="sfprodisplaybold"
-                        
-                        as="h1"
-                        color='blue.800'
-                        fontSize={{ base: '20px', md: '20px', lg: '22px' }}
-                        mt={1}
-                        mb={3}
-                        letterSpacing="wide">
-                          Our Team ☑️
-
-              </Heading>
+   
               
               </Flex>
               
               <Flex alignItems="center" justifyContent="space-between">     
                 <Heading 
-                        fontFamily='sfprodisplayregular'
-                        fontWeight={400}
+                        fontFamily='sfprodisplaylight'
+                      fontWeight={500}
                         as="h2"
-                        color='gray.600'
+                        color='gray.700'
                         fontSize={{ base: '16px', md: '16px', lg: '20px' }}
                         mt={1}
-                        letterSpacing="unset"
+                        letterSpacing="wide"
+                        textAlign={'center'}
+                        marginBottom={'4px'}
                         
                     >
                      We are not your average group of construction workers and carpenters. Tallowhill is a team of home improvement specialists with deep experience in construction, custom furniture, cabinetry and fabrication.
@@ -43,14 +36,14 @@ const WeAre = () => {
                    
                     <Flex alignItems="center" justifyContent="space-between">     
                 <Heading 
-                        fontFamily='sfprodisplayregular'
-                        fontWeight={400}
+    fontFamily='sfprodisplaylight'
+                      fontWeight={500}
                         as="h2"
-                        color='gray.600'
+                        color='gray.700'
                         fontSize={{ base: '16px', md: '16px', lg: '20px' }}
-                        mt={2}
-                        mb={2}
-                        letterSpacing="unset"
+                        mt={1}
+                        letterSpacing="wide"
+                        textAlign={'center'}
                         
                     >
                     We love what we do and we are passionate about doing it well. Most importanly, we are committed to delivering the highest quality service with a beautiful result four our customers. 

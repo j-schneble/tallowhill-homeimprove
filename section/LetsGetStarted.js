@@ -7,21 +7,11 @@ import NextLink from 'next/link'
 const LetsGetStarted = () => {
     return (
 
-        <Box>
+        <Box
+        backgroundColor={''}>
             <Flex alignItems="center" justifyContent="space-between">      
                     
-                    <Heading
-                    fontFamily="sfprodisplaybold"
-                              
-                    as="h1"
-                        color='blue.800'
-                        fontSize={{ base: '20px', md: '20px', lg: '22px' }}
-                       
-                        mb={3}
-                        letterSpacing="wide">
-                                Lets Get Started ☑️
-      
-                    </Heading>
+                
                     
                     </Flex>
                     <Heading
@@ -33,8 +23,8 @@ const LetsGetStarted = () => {
                     textColor={'gray.600'}
                     letterSpacing="wide"
                     textAlign={'center'}
-                    backgroundColor={'gray.50'}
-                    paddingTop="1"
+               
+                    paddingTop="4"
                     paddingBottom="1"
                     >
                     In most cases, we can provide a firm estimate after just a quick phone call. We would never exceed our estimate without your approval.
