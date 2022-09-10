@@ -1,7 +1,7 @@
 ## Tallowhill Home Services
 >A handyman/home improvement site. Currently just a homepage layout with no connected pages.
 
-<img width="1660" alt="Screen Shot 2022-08-31 at 10 15 45 PM" src="https://user-images.githubusercontent.com/60337134/187817917-34b35138-b8ed-462b-a656-7e9951f6e5cb.png">
+<img width="1664" alt="tallowbetter" src="https://user-images.githubusercontent.com/60337134/189502074-68e30803-8d55-45c4-8486-f97ee38d8b3b.png">
 
 
 ## Demo
